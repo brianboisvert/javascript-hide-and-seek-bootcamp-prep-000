@@ -10,7 +10,7 @@ describe('index', () => {
     it('pulls a .target out of #nested', () => {
       expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
     })
-  })
+  }) 
 
   describe('deepestChild()', () => {
     it('returns the most deeply nested child in #grand-node', () => {
